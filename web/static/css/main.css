@@ -1,0 +1,139 @@
+/* #repeat { background-repeat: repeat; }
+
+
+
+
+
+/* styling for the Pen */
+
+/* body { font-family: sans-serif; }
+
+div {
+  width: 100%;
+  height: 100%;
+  background: url(output.png);
+}  */
+
+html, body{
+    height: 100%;
+    /* background: url(login.gif) ;
+    background-size:100% 100%; */
+}
+.login-box {
+text-align: center;
+margin-left: 33%;
+margin-right: 33%;
+margin-top: 10%;
+/* background-image: linear-gradient(); */
+/* background-size:100% 100%; */
+/* border-right-style: dotted;
+border-left-style: dotted;
+border-top-style: dotted;
+border-bottom-style: dotted; */
+}
+
+.login-input label{
+  color: orange;
+  font-size: 20px;
+  font-family: monospace;
+  margin-right: 5%;
+  margin-left: -10%;
+
+}
+.login-input {
+  margin-top: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login-input input{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  color: orange ;
+  outline: none;
+}
+.login-pass label{
+  color: orange;
+  font-size: 20px;
+  font-family: monospace;
+  margin-right: 5%;
+  margin-left: -10%;
+}
+.login-pass {  margin-top: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login-pass input{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  color: orange ;
+  outline: none;
+}
+.email-input label{
+  color: orange;
+  font-size: 20px;
+  font-family: monospace;
+  margin-right: 5%;
+  margin-left: -10%;
+
+}
+.email-input {
+  margin-top: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+}
+.email-input input{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  color: orange ;
+  outline: none;
+}
+.login-btn {
+  margin-top: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+/* .login-btn button {
+    background-color:yellow;
+} */
+.login-btn button:hover{background-color:orange;}
+.register-btn {
+  margin-top: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+
+}
+/* .login-btn button {
+    background-color:yellow;
+} */
+.register-btn button:hover{background-color:orange;}
+.btn {
+  padding-left: 1.75rem;
+  padding-right: 1.75em;
+}
+.fa-lock {
+  margin-right: 20px;
+}
+.fa-user-circle-o {
+  margin-right: 20px;
+}
+.fa-envelope{
+  margin-right: 20px;
+}
+.btn-group {
+  left: 3%;
+}
+.errmsg{
+  color: red;
+}
+.successmsg{
+  color: blue;
+}
